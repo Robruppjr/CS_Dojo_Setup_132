@@ -5,11 +5,20 @@
 // make a variable type decimal 'dogPrice', set it equal to $5000
 // make a variable type bool 'isPapered', set it equal to true
 
+int dogAge = 12;
+string dogName = "Rover"; 
+string ownerName = "Steve";
+decimal dogPrice = 5000m;
+bool isPapered = true;
 
 // -types
 // make a variable type DateTime 'dogBirthDay', and set the values equal to (2010,11,10) //hint use the 'new' key word after the =
 
+DateTime dogBirthDay = new DateTime(2010,11,10);
+
 // make a enum of type DogBreed {American_Bully,German_Shepard,Doberman,two more of whatever breed that you want}(this should be in a different file)
+
+
 
 // make a variable type DogBreed 'DogBreed' and assign the value DogBreed.German_Shepard
 
