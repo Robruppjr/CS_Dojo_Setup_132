@@ -18,41 +18,69 @@ DateTime dogBirthDay = new DateTime(2010,11,10);
 
 // make a enum of type DogBreed {American_Bully,German_Shepard,Doberman,two more of whatever breed that you want}(this should be in a different file)
 
-
-
 // make a variable type DogBreed 'DogBreed' and assign the value DogBreed.German_Shepard
+
+DogBreeds DogBreed = DogBreeds.German_Shepard;
 
 // -operators
 // make a variable type int 'employees', set its value to 20
 
+int employees = 20;
+
 // increment the value of employees by 1.
 // Console.WriteLine("The amt of employees we have is" + employees);
+
+employees++;
+System.Console.WriteLine("The amt fo employees we have is " + employees);
 
 // decrement the value of employees by 5.
 // Console.WriteLine("The amt of employees we have is" + employees);
 
+employees-=5;
+System.Console.WriteLine("The amt of employees we have is " + employees);
+
 // make a variable of type int 'ValueA', set it equal to 20.
 // make a variable of type int 'ValueB', set it equal to 5.
+
+int ValueA = 80;
+int ValueB = 3;
 
 // make a variable of type int 'addition', set it equal to ValueA + ValueB
 // Console.WriteLine("addition equals:" + addition);
 
+int addition = ValueA + ValueB;
+System.Console.WriteLine("addition equals: " + addition);
+
 // make a variable of type int 'subtraction', set it equal to ValueA - ValueB
 // Console.WriteLine("subtraction equals:" + subtraction);
+
+int subtraction = ValueA - ValueB;
+System.Console.WriteLine("subtraction equals: " + subtraction);
 
 // make a variable of type int 'multiplication' , set it equal to ValueA * ValueB
 // Console.WriteLine("multiplication equals:" + multiplication);
 
+int multiplication = ValueA * ValueB;
+System.Console.WriteLine("multiplication equals: " + multiplication);
+
 // make a variable of type int 'division', set it equal to ValueA / ValueB
 // Console.WriteLine("division equals:" + division);
 
+int division = ValueA / ValueB;
+System.Console.WriteLine("division equals: " + division);
+
 // make a variable of type int 'modulus', set it equal to ValueA % ValueB
 // Console.WriteLine("modulus equals:" + modulus");
+
+int modulus = ValueA % ValueB;
+System.Console.WriteLine("modulus equals: " + modulus);
 
 // set 'ValueA', equal to 80.
 // set 'ValueB', equal to 3.
 // set 'modulus', equal to ValueA % ValueB
 // Console.WriteLine("modulus equals:" + modulus);
+
+System.Console.WriteLine("modulus equals: " + modulus);
 
 // -strings
 
@@ -71,8 +99,6 @@ DateTime dogBirthDay = new DateTime(2010,11,10);
 // Using string interpolation
 // make the Console.WriteLine say
 // "Steve, bought the dog for 5000. The dog Rover's, birthday is !"
-
-
 
 // -Booleans
 // bool isGreaterThan =20>20;
