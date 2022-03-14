@@ -85,30 +85,43 @@ System.Console.WriteLine("modulus equals: " + modulus);
 // -strings
 
 // make a variable of type string 'thisDogBelongsTo' , set it equal to "This dog belongs to: ";
+
+string thisDogBelongsTo = "This dog belongs to: ";
+
 // make a variable of type string 'concat01', set it equal to thisDogBelogsTo + dogOwner;
-// Console.WriteLine(concat01);
+string dogOwner = ownerName;
+string concat01 = thisDogBelongsTo + dogOwner;
+
+Console.WriteLine(concat01);
 
 // make a variable of type string 'thisDogsBirthdayIs' , set it equal to "This dogs birthday is: 11/10/2010";
+string thisDogsBirthdayIs = "This dogs birthday is: 11/10/2010";
 // make a variable of type string 'concat02', set it equal to thisDogAgeIs + dogAge;
-// Console.WriteLine(concat02);
+string thisDogAgeIs = "The dogs age is: ";
+string concat02 =  thisDogAgeIs + dogAge;
+Console.WriteLine(concat02);
 
 // make a variable of type string 'iBoughtTheDogFor' , set it equal to "I bought the dog for ";
+string iBoughtTheDogFor = "I bought the dog for ";
 // make a variable of type string 'composite01', set it equal to string.Format("{0},{1}",iBoughtTheDogFor,dogPrice);
-// Console.WriteLine(composite01);
+string composite01 = string.Format("{0} {1}", iBoughtTheDogFor, dogPrice);
+Console.WriteLine(composite01);
 
 // Using string interpolation
 // make the Console.WriteLine say
 // "Steve, bought the dog for 5000. The dog Rover's, birthday is !"
 
+Console.WriteLine($"{dogOwner}, bought the dog for {dogPrice}. The dog {dogName}'s, birthday is {dogBirthDay}");
+
 // -Booleans
-// bool isGreaterThan =20>20;
-// bool isGreaterThanOrEqualTo = 20>=20;
-// Console.WriteLine($"20 > 20 is {isGreaterThan}, and 20 >= 20 is {isGreaterThanOrEqualTo}");
+bool isGreaterThan =20>20;
+bool isGreaterThanOrEqualTo = 20>=20;
+Console.WriteLine($"20 > 20 is {isGreaterThan}, and 20 >= 20 is {isGreaterThanOrEqualTo}");
 
-// bool isLessThan = 50 < 50;
-// bool isLessThanOrEqualTo = 50 <= 50;
-// Console.WriteLine($"50 < 50 is {isLessThan}, while 50 <= 50 is {isLessThanOrEqualTo}");
+bool isLessThan = 50 < 50;
+bool isLessThanOrEqualTo = 50 <= 50;
+Console.WriteLine($"50 < 50 is {isLessThan}, while 50 <= 50 is {isLessThanOrEqualTo}");
 
-// bool equality = 97 == 9;
-// bool inequality = 97 !=9;
-// Console.WriteLine($"97 == 9 and 97 != 9 are {equality} and {inequality}, respectively.");
+bool equality = 97 == 9;
+bool inequality = 97 !=9;
+Console.WriteLine($"97 == 9 and 97 != 9 are {equality} and {inequality}, respectively.");

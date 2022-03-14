@@ -7,4 +7,3 @@
         Beagle,
         Shiba,
     }
-
